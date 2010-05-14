@@ -1,0 +1,41 @@
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+#accordion {
+  width: 650px;
+  height: 260px;
+  background: #eee;
+  position: relative;
+  overflow: hidden;
+}
+
+.pane {
+  width: 260px;
+  height: 260px;
+  position: absolute;
+}
+
+.pane#one {
+  background: cyan;
+  left: 0;
+  z-index: 4;
+}
+
+.pane#two {
+  background: magenta;
+  left: 130px;
+  z-index: 3;
+}
+
+.pane#three {
+  background: yellow;
+  left: 260px;
+  z-index: 2;
+}
+
+.pane#four {
+  background: black;
+  left: 390px;
+  z-index: 1;
+}
