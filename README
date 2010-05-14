@@ -8,3 +8,6 @@ The plugin also allows you specify the animation duration and trigger event with
 
 $('#accordion').haccordion({triggerevent: 'mouseover', duration: 300});
 
+## Credits
+
+Based on [Marc Thomas's example](http://www.mrcthms.com/design/build-a-jquery-powered-horizontal-accordion/)
